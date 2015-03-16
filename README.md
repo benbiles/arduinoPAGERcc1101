@@ -27,6 +27,21 @@ keyboard. this is too large to use as a pager !!
 
 currently the PAGER message is manually entered into the array in the code :(
 
+Instructions.
+
+1, wire up 2 arduino Uno's with 80 character screens with I2C
+2, connect CC1101 RF modules with SPI
+3, get Liquidcrystal library
+4, get PanStamp Library ( correct version ) will upload here soon
+5, load code on TX arduino
+6, load code on RX arduino
+
+7, change text in array to whatever you like?
+
+Text is sent in 4 packets.. one line at a time. if the reciever is switched on as TX arduino is mid transmit it will possibley recieve line 2 , 3 or 4 before line 1 ? re transmit interval set by simple delay
+
+
+
 
 
 
