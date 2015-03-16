@@ -33,12 +33,35 @@ Instructions.
 2, connect CC1101 RF modules with SPI
 3, get Liquidcrystal library
 4, get PanStamp Library ( correct version ) will upload here soon
-5, load code on TX arduino
-6, load code on RX arduino
+5, load TX_message.ino code on TX arduino
+6, load RX_message.ino code on RX arduino
 
-7, change text in array to whatever you like?
+7, change text in array to whatever you like? ( if longer than 80 characters I guess it wont get there ! )
 
 Text is sent in 4 packets.. one line at a time. if the reciever is switched on as TX arduino is mid transmit it will possibley recieve line 2 , 3 or 4 before line 1 ? re transmit interval set by simple delay
+
+
+things to do;
+
+store and recall messages on flash memeory ? add message number variable ?
+
+add PA to cc1101 for longer range ?
+
+find small qwerty blackberry style keyboard with arduino library ?
+
+build menu system ( store send resend time limits etc )
+
+* in the long future relay messages to next recipient? 
+
+
+
+
+
+
+
+
+
+
 
 
 
